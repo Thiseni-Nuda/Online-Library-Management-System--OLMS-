@@ -71,13 +71,16 @@ olms-web-app/
 └── README.md
 ```
 
-## 🚀 Setup Instructions
-1. **Install** XAMPP (or MAMP).
-2. **Place project** inside the `htdocs/` folder (or `www/`).
-3. **Open** `http://localhost/phpmyadmin` in your browser.
-4. **Create database** named `olms`.
-5. **Import** the `database/olms.sql` file.
-6. **Run:** Open `http://localhost/olms-web-app/` in your browser.
+### 🚀 Setup Instructions
+
+1. **Install** XAMPP (or MAMP) on your computer.
+2. **Clone the repository** directly into your XAMPP `htdocs/` folder (or `www/` for MAMP). 
+   *(Make sure the folder is named exactly: `Online-Library-Management-System--OLMS-`)*
+3. **Start** both Apache and MySQL from your XAMPP Control Panel.
+4. **Open** `http://localhost/phpmyadmin` in your web browser.
+5. **Import the Database:** Go to the "Import" tab and upload the `database/olms.sql` file. 
+   *(Note: You do not need to create a database first! The script will automatically build the `olms` database and insert the default Admin account).*
+6. **Run the App:** Open `http://localhost/Online-Library-Management-System--OLMS-/` in your browser.
 
 ## 🤝 Team Workflow (Fork & Pull)
 1. **Fork** this main repository to your personal GitHub account.
