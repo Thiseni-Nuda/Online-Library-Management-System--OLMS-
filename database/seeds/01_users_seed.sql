@@ -1,0 +1,5 @@
+-- =====================================================================================
+-- TEAM INSTRUCTIONS: 
+-- Write your INSERT INTO `users` sql queries below this line.
+-- Do NOT write any CREATE TABLE commands here.
+-- =====================================================================================
