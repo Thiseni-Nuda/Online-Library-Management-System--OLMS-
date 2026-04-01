@@ -16,8 +16,8 @@ START TRANSACTION;
 -- 1. Create the `users` table
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `username` varchar(50) NOT NULL,
-  `email` varchar(100) NOT NULL,
+  `username` varchar(50) NOT NULL UNIQUE,
+  `email` varchar(100) NOT NULL UNIQUE,
   `password` varchar(255) NOT NULL,
   `role` enum('admin','member') DEFAULT 'member',
   `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
