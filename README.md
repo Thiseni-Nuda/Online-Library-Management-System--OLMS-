@@ -107,10 +107,7 @@ For files inside folders (auth/, core/, catalog/, admin/, operations/):
 include '../includes/header.php'; 
 ?>
 
-<div class="card p-4 shadow-sm">
-    <h2>Page Title</h2>
-    <p>Start building your feature here!</p>
-</div>
+//your code goes here
 
 <?php 
 // 2. Include the footer (This handles JavaScript and closes tags)
